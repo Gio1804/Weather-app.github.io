@@ -1,0 +1,152 @@
+h1{
+    text-align: center;
+}
+div{
+    display: inline-block;
+}
+.box {
+    
+    width: 400px; 
+    height: 80vh;
+    background-color: var(--blue-2);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px var(--shadow-dark);
+
+}
+
+
+
+ .dati{
+    color: yellowgreen; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+.upper-data {
+    
+    position:relative;   
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: rgba(237, 161, 19, 0.92);
+}
+
+.lower-data {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.upper-data img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.weather-data {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: var(--shadow-dark);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.location {
+
+    height: 80%;
+    width: 0;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.temperature {
+    width: 150px;
+    height: 70%;
+    color: var(--white);
+    font-size: 3em;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.more-info-label {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: var(--white);
+    padding: 0;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 25%;
+}
+
+.more-info-container {
+    flex: 1;
+    background-color: var(--shadow-light);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    height: 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-block-label {
+    height: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block-label img {
+    width: 1.5em;
+    height: 100%;
+}
+
+.info-block-label span {
+    color: var(--white);
+    font-size: 0.8em;
+}
+
+.info-block-value {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--white);
+}
+
+.info-block-value-description {
+
+    color: rgba(237, 161, 19, 0.886);
+}
