@@ -47,15 +47,15 @@
 
                     <div class="upper-data">
 
-                        <img src="/assets/img/rome/rome.clear.jpg" *ngIf="(r.weather[0].main=='Clear')">
-                        <img src="/assets/img/rome/rome.thunderstorm.jpg" *ngIf="(r.weather[0].main=='Thunderstorm')">
-                        <img src="/assets/img/rome/rome.rain.jpg" *ngIf="r.weather[0].main=='Rain','Drizzle'">
-                        <img src="/assets/img/rome/rome.snow.jpg" *ngIf="r.weather[0].main=='snow','Snow'">
-                        <img src="/assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Mist','Smoke'">
-                        <img src="/assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Haze','Dust'">
-                        <img src="/assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Fog','Sand'">
-                        <img src="/assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Ash','Squall'">
-                        <img src="/assets/img/rome/rome.clouds.jpg" *ngIf="r.weather[0].main=='Clouds'">
+                        <img src="assets/img/rome/rome.clear.jpg" *ngIf="(r.weather[0].main=='Clear')">
+                        <img src="assets/img/rome/rome.thunderstorm.jpg" *ngIf="(r.weather[0].main=='Thunderstorm')">
+                        <img src="assets/img/rome/rome.rain.jpg" *ngIf="r.weather[0].main=='Rain','Drizzle'">
+                        <img src="assets/img/rome/rome.snow.jpg" *ngIf="r.weather[0].main=='snow','Snow'">
+                        <img src="assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Mist','Smoke'">
+                        <img src="assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Haze','Dust'">
+                        <img src="assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Fog','Sand'">
+                        <img src="assets/img/rome/rome.fog.jpg" *ngIf="r.weather[0].main=='Ash','Squall'">
+                        <img src="assets/img/rome/rome.clouds.jpg" *ngIf="r.weather[0].main=='Clouds'">
 
                         <!-- <img src="..\assets\img\rome\colosseo.night.jpg"  *ngIf="r.sys.sunset *1000 | date:' H:mm '">  -->
 
@@ -79,7 +79,7 @@
                         <div class="more-info-container">
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.min.jpg">
+                                    <img src="assets/img/temp.min.jpg">
                                     <span><b>min</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -89,7 +89,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.max.jpg">
+                                    <img src="assets/img/temp.max.jpg">
                                     <span><b>max</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -99,7 +99,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/wind.png">
+                                    <img src="assets/img/wind.png">
 
                                 </div>
 
@@ -110,7 +110,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/humidity.png">
+                                    <img src="assets/img/humidity.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{r.main.humidity | number: '1.0-0' }} %
@@ -139,15 +139,15 @@
                 <div class="box" *ngIf="l!=null">
                     <div class="upper-data">
 
-                        <img src="/assets/img/london/london.clear.jpg" *ngIf="l.weather[0].main=='Clear'">
-                        <img src="/assets/img/london/london.thunderstorm.jpg" *ngIf="l.weather[0].main=='Thunderstorm'">
-                        <img src="/assets/img/london/london.rain.jpg" *ngIf="l.weather[0].main=='Rain','Drizzle'">
-                        <img src="/assets/img/london/london.snow.jpg" *ngIf="l.weather[0].main=='snow', 'Snow'">
-                        <img src="/assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Mist','Smoke'">
-                        <img src="/assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Haze','Dust'">
-                        <img src="/assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Fog','Sand'">
-                        <img src="/assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Ash','Squall'">
-                        <img src="/assets/img/london/london.clouds.jpg" *ngIf="l.weather[0].main=='Clouds'">
+                        <img src="assets/img/london/london.clear.jpg" *ngIf="l.weather[0].main=='Clear'">
+                        <img src="assets/img/london/london.thunderstorm.jpg" *ngIf="l.weather[0].main=='Thunderstorm'">
+                        <img src="assets/img/london/london.rain.jpg" *ngIf="l.weather[0].main=='Rain','Drizzle'">
+                        <img src="assets/img/london/london.snow.jpg" *ngIf="l.weather[0].main=='snow', 'Snow'">
+                        <img src="assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Mist','Smoke'">
+                        <img src="assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Haze','Dust'">
+                        <img src="assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Fog','Sand'">
+                        <img src="assets/img/london/london.fog.jpg" *ngIf="l.weather[0].main=='Ash','Squall'">
+                        <img src="assets/img/london/london.clouds.jpg" *ngIf="l.weather[0].main=='Clouds'">
 
 
                         <div class="weather-data" *ngIf="l!=null">
@@ -166,7 +166,7 @@
                         <div class="more-info-container">
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.min.jpg">
+                                    <img src="assets/img/temp.min.jpg">
                                     <span><b>min</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -176,7 +176,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.max.jpg">
+                                    <img src="assets/img/temp.max.jpg">
                                     <span><b>max</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -186,7 +186,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/wind.png">
+                                    <img src="assets/img/wind.png">
                                 </div>
 
                                 <div class="info-block-value">
@@ -196,7 +196,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/humidity.png">
+                                    <img src="assets/img/humidity.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{l.main.humidity | number: '1.0-0' }} %
@@ -226,15 +226,15 @@
                 <div class="box" *ngIf="p!=null">
 
                     <div class="upper-data">
-                        <img src="/assets/img/paris/paris.clear.jpg" *ngIf="p.weather[0].main=='Clear'">
-                        <img src="/assets/img/paris/paris.thunderstorm.jpg" *ngIf="p.weather[0].main=='Thunderstorm'">
-                        <img src="/assets/img/paris/paris.rain.jpg" *ngIf="p.weather[0].main=='Rain','Drizzle'">
-                        <img src="/assets/img/paris/paris.snow.jpg" *ngIf="p.weather[0].main=='snow','Snow'">
-                        <img src="/assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Mist','Smoke'">
-                        <img src="/assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Haze','Dust'">
-                        <img src="/assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Fog','Sand'">
-                        <img src="/assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Ash','Squall'">
-                        <img src="/assets/img/paris/paris.clouds.jpg" *ngIf="p.weather[0].main=='Clouds'">
+                        <img src="assets/img/paris/paris.clear.jpg" *ngIf="p.weather[0].main=='Clear'">
+                        <img src="assets/img/paris/paris.thunderstorm.jpg" *ngIf="p.weather[0].main=='Thunderstorm'">
+                        <img src="assets/img/paris/paris.rain.jpg" *ngIf="p.weather[0].main=='Rain','Drizzle'">
+                        <img src="assets/img/paris/paris.snow.jpg" *ngIf="p.weather[0].main=='snow','Snow'">
+                        <img src="assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Mist','Smoke'">
+                        <img src="assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Haze','Dust'">
+                        <img src="assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Fog','Sand'">
+                        <img src="assets/img/paris/paris.fog.jpg" *ngIf="p.weather[0].main=='Ash','Squall'">
+                        <img src="assets/img/paris/paris.clouds.jpg" *ngIf="p.weather[0].main=='Clouds'">
 
 
                         <div class="weather-data" *ngIf="p!=null">
@@ -254,7 +254,7 @@
                         <div class="more-info-container">
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.min.jpg">
+                                    <img src="assets/img/temp.min.jpg">
                                     <span><b>min</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -264,7 +264,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.max.jpg">
+                                    <img src="assets/img/temp.max.jpg">
                                     <span><b>max</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -274,7 +274,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/wind.png">
+                                    <img src="assets/img/wind.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{p.wind.speed | number: '1.0-0'}} km/h
@@ -283,7 +283,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/humidity.png">
+                                    <img src="assets/img/humidity.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{p.main.humidity | number: '1.0-0' }} %
@@ -314,16 +314,16 @@
                 <div class="box" *ngIf="d!=null">
                     <div class="upper-data">
 
-                        <img src="/assets/img/dublin/dublin.clear.jpg" *ngIf="d.weather[0].main=='Clear'">
-                        <img src="/assets/img/dublin/dublin.thunderstorm.jpg"
+                        <img src="assets/img/dublin/dublin.clear.jpg" *ngIf="d.weather[0].main=='Clear'">
+                        <img src="assets/img/dublin/dublin.thunderstorm.jpg"
                             *ngIf="d.weather[0].main=='Thunderstorm'">
-                        <img src="/assets/img/dublin/dublin.rain.jpg" *ngIf="d.weather[0].main=='Rain','Drizzle'">
-                        <img src="/assets/img/dublin/dublin.snow.jpg" *ngIf="d.weather[0].main=='snow','Snow'">
-                        <img src="/assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Mist','Smoke'">
-                        <img src="/assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Haze','Dust'">
-                        <img src="/assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Fog','Sand'">
-                        <img src="/assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Ash','Squall'">
-                        <img src="/assets/img/dublin/dublin.clouds.jpg" *ngIf="d.weather[0].main=='Clouds'">
+                        <img src="assets/img/dublin/dublin.rain.jpg" *ngIf="d.weather[0].main=='Rain','Drizzle'">
+                        <img src="assets/img/dublin/dublin.snow.jpg" *ngIf="d.weather[0].main=='snow','Snow'">
+                        <img src="assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Mist','Smoke'">
+                        <img src="assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Haze','Dust'">
+                        <img src="assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Fog','Sand'">
+                        <img src="assets/img/dublin/dublin.fog.jpg" *ngIf="d.weather[0].main=='Ash','Squall'">
+                        <img src="assets/img/dublin/dublin.clouds.jpg" *ngIf="d.weather[0].main=='Clouds'">
 
 
 
@@ -344,7 +344,7 @@
                         <div class="more-info-container">
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.min.jpg">
+                                    <img src="assets/img/temp.min.jpg">
                                     <span><b>min</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -354,7 +354,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.max.jpg">
+                                    <img src="assets/img/temp.max.jpg">
                                     <span><b>max</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -365,7 +365,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/wind.png">
+                                    <img src="assets/img/wind.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{d.wind.speed | number: '1.0-0'}} km/h
@@ -374,7 +374,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/humidity.png">
+                                    <img src="assets/img/humidity.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{d.main.humidity | number: '1.0-0' }} %
@@ -404,15 +404,15 @@
                     <div class="upper-data">
 
 
-                        <img src="/assets/img/tokyo/tokyo.clear.jpg" *ngIf="t.weather[0].main=='Clear'">
-                        <img src="/assets/img/tokyo/tokyo.thunderstorm.jpg" *ngIf="t.weather[0].main=='Thunderstorm'">
-                        <img src="/assets/img/tokyo/tokyo.rain.jpg" *ngIf="t.weather[0].main=='Rain','Drizzle'">
-                        <img src="/assets/img/tokyo/tokyo.snow.jpg" *ngIf="t.weather[0].main=='snow','Snow'">
-                        <img src="/assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Mist','Smoke'">
-                        <img src="/assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Haze','Dust'">
-                        <img src="/assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Fog','Sand'">
-                        <img src="/assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Ash','Squall'">
-                        <img src="/assets/img/tokyo/tokyo.clouds.jpg" *ngIf="t.weather[0].main=='Clouds'">
+                        <img src="assets/img/tokyo/tokyo.clear.jpg" *ngIf="t.weather[0].main=='Clear'">
+                        <img src="assets/img/tokyo/tokyo.thunderstorm.jpg" *ngIf="t.weather[0].main=='Thunderstorm'">
+                        <img src="assets/img/tokyo/tokyo.rain.jpg" *ngIf="t.weather[0].main=='Rain','Drizzle'">
+                        <img src="assets/img/tokyo/tokyo.snow.jpg" *ngIf="t.weather[0].main=='snow','Snow'">
+                        <img src="assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Mist','Smoke'">
+                        <img src="assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Haze','Dust'">
+                        <img src="assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Fog','Sand'">
+                        <img src="assets/img/tokyo/tokyo.fog.jpg" *ngIf="t.weather[0].main=='Ash','Squall'">
+                        <img src="assets/img/tokyo/tokyo.clouds.jpg" *ngIf="t.weather[0].main=='Clouds'">
 
 
 
@@ -432,7 +432,7 @@
                         <div class="more-info-container">
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.min.jpg">
+                                    <img src="assets/img/temp.min.jpg">
                                     <span><b>min</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -442,7 +442,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/temp.max.jpg">
+                                    <img src="assets/img/temp.max.jpg">
                                     <span><b>max</b></span>
                                 </div>
                                 <div class="info-block-value">
@@ -453,7 +453,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/wind.png">
+                                    <img src="assets/img/wind.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{t.wind.speed | number: '1.0-0'}} km/h
@@ -462,7 +462,7 @@
 
                             <div class="info-block">
                                 <div class="info-block-label">
-                                    <img src="/assets/img/humidity.png">
+                                    <img src="assets/img/humidity.png">
                                 </div>
                                 <div class="info-block-value">
                                     {{t.main.humidity | number: '1.0-0' }} %
